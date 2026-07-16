@@ -1,0 +1,34 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    width: 200px;
+    background-color: grey;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#display-result{
+    background-color: white;
+    padding: 10px;
+    text-align: right;
+}
+
+.numbers, .operations{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.number, .operation{
+    width: 50px;
+    height: 50px;
+}
